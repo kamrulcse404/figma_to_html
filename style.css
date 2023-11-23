@@ -791,3 +791,109 @@ nav.mobile-nav,
         font-size: 18px;
     }
 }
+
+@media (max-width: 700px){
+    .wrapper{
+        padding: 0 32px;
+    }
+
+    .hero-section .left p{
+        width: 100%;
+    }
+
+    .app-section .app-buttons{
+        flex-direction: column;
+    }
+
+    nav.mobile-nav{
+        padding: 32px;
+    }
+
+    nav.mobile-nav.scrolled{
+        padding: 8px 32px;
+    }
+
+    .mobile-menu-container .close-icon{
+        right: 32px;
+    }
+
+    .hero-section .left h1{
+        font-size: 36px;
+    }
+
+    .hero-section .right img{
+        transform: translateX(480px);
+        height: 400px;
+    }
+
+    .hero-section .right{
+        overflow: hidden;
+        transform: translateX(30px);
+    }
+
+    .achievement-card h3{
+        font-size: 30px;
+    }
+
+    .hero-section .achievement-card{
+        margin-bottom: 48px;
+    }
+
+    .hero-section .achievement-cards{
+        margin: 0;
+    }
+
+    h2{
+        font-size: 30px;
+    }
+
+    .testmonial-section .testimonial-card .info h4{
+        font-size: 18px;
+    }
+
+    .testmonial-section .testimonial-card .info p.company{
+        font-size: 14px;
+    }
+
+    .testmonial-section .testimonial-card img{
+        height: 100px;
+        width: 100px;
+    }
+
+    .courses-section .wrapper{
+        padding: 0;
+    }
+
+    .courses-section .course-card img{
+        height: 240px;
+
+    }
+    .courses-section .wrapper .btn{
+        right: 32px;
+    }
+
+    footer .link-container{
+        grid-template-columns: 1fr;
+        text-align: center;
+        gap: 40px;
+    }
+
+    footer .link-container .links:last-child{
+        grid-column: 1 / 2;
+    }
+
+    footer ul{
+        padding: 0;
+    }
+
+    footer form .submit-btn {
+        top: 130%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    footer .copyright{
+        margin-top: 80px;
+        text-align: center;
+    }
+}
